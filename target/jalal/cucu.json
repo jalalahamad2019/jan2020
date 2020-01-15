@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-15T17:52:54.892Z",
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11241666300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser",
+            "match": {
+              "location": "SampleTest.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3791685500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "load url",
+            "match": {
+              "location": "SampleTest.load_url()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:Jenkin.feature",
+    "tags": []
+  }
+]
